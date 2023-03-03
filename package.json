@@ -3,15 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "next": "next build",
     "dev": "next dev",
-    "build": "tailwindcss -i ./styles/globals.css -o ./dist/output.css",
-    "watch": "tailwindcss -i ./styles/globals.css -o ./dist/output.css --watch"
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.14",
     "@next/font": "13.1.6",
-    "next": "13.1.6",
+    "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwind-scrollbar-hide": "^1.1.7"
