@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "next": "next",
     "dev": "next dev",
     "build": "tailwindcss -i ./styles/globals.css -o ./dist/output.css",
     "watch": "tailwindcss -i ./styles/globals.css -o ./dist/output.css --watch"
