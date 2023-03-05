@@ -12,6 +12,7 @@ import Footer from '@/components/Footer'
 
 // This is called descructuring, instead of passing -> props and then calling -> props.exploreData  we destructure and with curly braces we simply pass exploreData
 export default function Home({exploreData, cardsData}) {
+  exploreData;
   return (
     // <div className="flex flex-col items-center justify-center min-h-screen py-2">
     <div>
@@ -29,6 +30,7 @@ export default function Home({exploreData, cardsData}) {
         <section className='pt-6'>
           <h2 className='text-4xl font-bold pb-5' >Explore Nearby</h2>
 
+          {/* API */}
           {/* Pull data from an external server - API endpoints already made - using server side rendering (Static) */}
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
             {exploreData.map((item) => (
@@ -70,9 +72,10 @@ export default function Home({exploreData, cardsData}) {
         />
       </main>
       
-      <Footer 
+      <footer>
+        <Footer />
+      </footer>
       
-      />
     </div>
   )
 }

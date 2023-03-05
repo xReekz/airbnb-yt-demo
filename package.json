@@ -8,11 +8,16 @@
     "watch": "tailwindcss -i ./styles/globals.css -o ./dist/output.css --watch"
   },
   "dependencies": {
+    "@badrap/bar-of-progress": "^0.2.2",
     "@heroicons/react": "^2.0.14",
     "@next/font": "13.1.6",
+    "geolib": "^3.3.3",
+    "mapbox-gl": "^2.13.0",
     "next": "13.1.6",
     "react": "18.2.0",
+    "react-date-range": "^1.4.0",
     "react-dom": "18.2.0",
+    "react-map-gl": "^7.0.21",
     "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
