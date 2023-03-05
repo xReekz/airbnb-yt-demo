@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ReactMapGL from "react-map-gl";
-import getCenter from "geolib/es/getCenter";
+import {getCenter} from "geolib";
 import { Marker, Popup } from "react-map-gl";
 import { LocationMarkerIcon } from "@heroicons/react/24/solid";
 
